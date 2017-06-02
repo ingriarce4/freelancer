@@ -15,7 +15,6 @@
 			bodyModal.classList.add("modal-body");
 			bodyModal.innerHTML = box.innerHTML;			
 			modal.appendChild(bodyModal);
-			
 			close = document.createElement("div");
 			close.classList.add("close");
 			img = document.createElement("img");

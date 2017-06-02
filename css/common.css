@@ -11,7 +11,7 @@
    margin: 0 auto;
    max-width: 1200px;
  }
- .row::after, .row::before{
+ .row:after,.row:before{
    content: " ";
    display: table;
  }
