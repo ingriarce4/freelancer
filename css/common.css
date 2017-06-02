@@ -11,8 +11,7 @@
    margin: 0 auto;
    max-width: 1200px;
  }
- .row::after,
- .row::before{
+ .row::after, .row::before{
    content: " ";
    display: table;
  }
@@ -57,7 +56,12 @@
  }
  .col-12{
    width: 100%;
+
  }
- .up-case{
-   text-transform: uppercase;
- }
+ .text-uppercase {
+  text-transform: uppercase;
+}
+.img-responsive{
+  max-width: 100%;
+  width: 100%;
+}
