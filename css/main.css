@@ -1,3 +1,61 @@
 /*
  * Estilos de tu proyecto
  */
+ /*Navegador*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+}
+header{
+  position: fixed;
+  background: #2C3E50;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.menu{
+  padding: 14px 30px;
+  overflow: auto;
+}
+
+.texto{
+  font-weight: 700;
+  padding: 21px;
+  display: inline-block;
+  float: right;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #18BC9C;
+}
+
+.letra{
+  font-weight: 700;
+    padding: 15px;
+    font-size: 1.5em;
+  float: left;
+  color: white;
+    text-decoration: none;
+}
